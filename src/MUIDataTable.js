@@ -175,8 +175,8 @@ class MUIDataTable extends React.Component {
       viewColumns: true,
       download: true,
       downloadOptions: {
-        filename: 'tableDownload.csv',
-        separator: ',',
+        filename: "tableDownload.csv",
+        separator: ",",
       },
     };
 

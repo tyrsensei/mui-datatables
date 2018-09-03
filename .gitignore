@@ -32,7 +32,7 @@ node_modules
 .npm
 
 # Build Data
-dist/*
+#dist/*
 es/*
 lib/*
 

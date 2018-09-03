@@ -90,7 +90,7 @@ class MUIDataTableToolbar extends React.Component {
       columns
         .reduce(
           (soFar, column) =>
-            column.download ? soFar + '"' + column.name + '"' + options.downloadOptions.separator : "",
+            column.download ? soFar + '"' + column.name + '"' + options.downloadOptions.separator : soFar,
           "",
         )
         .slice(0, -1) + "\r\n";
